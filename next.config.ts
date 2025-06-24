@@ -1,11 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: '/shadow',
-  images: {
-    unoptimized: true,
-  },
+  // Vercel handles Next.js configuration automatically.
+  // We can leave this empty for a standard deployment.
 };
 
 export default nextConfig;
